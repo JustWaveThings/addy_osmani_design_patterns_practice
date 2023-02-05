@@ -6,7 +6,7 @@ const form = document.querySelector('button');
 
 form.addEventListener('submit', (e) => {
 	e.preventDefault();
-	import('./cakefactory.mjs').then((module) => {
+	import('./cakeFactory.mjs').then((module) => {
 		module.oven.makeCupcake('sprinkles');
 		module.oven.makeMuffin('large');
 	});
