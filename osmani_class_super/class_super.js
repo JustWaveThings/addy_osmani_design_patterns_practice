@@ -9,6 +9,8 @@ class Cookie {
 }
 
 // note the super keyword - it calls the parent class constructor and this code outputs both console.log statements
+//This is a chocolate chip cookie
+//chocolate chip is amazing!
 
 class FavoriteCookie extends Cookie {
 	showTitle() {
